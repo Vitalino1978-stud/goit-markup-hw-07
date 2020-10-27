@@ -1,17 +1,63 @@
 /*FOOOOOOTER*/
-.footer-dark {
-  background: #2f303a;
+.footer {
+  background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+
+  &-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
+  &-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  &-map {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    margin-bottom: 8px;
+  }
+  &-mail,
+  &-tel {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 8px;
+  }
+
+  &-socials {
+    display: flex;
+    margin-top: 12px;
+    margin-left: 70px;
+    flex-direction: column;
+  }
+  &-socials-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: start;
+    margin-bottom: 20px;
+    font-style: normal;
+  }
 }
-.footer-description {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}
+
 .logo-studio-footer {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
@@ -27,55 +73,14 @@
   display: block;
   margin-bottom: 20px;
 }
-.footer-map {
-  display: inline-block;
-  font-weight: 400;
-  font-size: 14px;
-  font-style: normal;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  margin-bottom: 8px;
-}
-.footer-mail,
-.footer-tel {
-  display: inline-block;
-  font-weight: 400;
-  font-size: 14px;
-  font-style: normal;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 8px;
-}
-.footer-list {
-  display: flex;
-  flex-direction: column;
-  margin-top: 20px;
-}
+
 .social-links-footer {
   display: flex;
   width: 206px;
   /*height: 80px;
   padding-top: 12px;*/
 }
-.unite {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-  text-align: start;
-  margin-bottom: 20px;
-  font-style: normal;
-}
-.social-links-footer {
-  display: flex;
-  margin-top: 12px;
-  margin-left: 70px;
-  flex-direction: column;
-}
+
 .footer-social-networks-list {
   display: flex;
   width: 206px;

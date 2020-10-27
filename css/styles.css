@@ -581,7 +581,7 @@ header {
   padding-bottom: 94px;
 }
 
-.klients {
+.clients-title {
   margin-bottom: 50px;
   border-top: 0px;
   font-weight: 700;
@@ -591,12 +591,12 @@ header {
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
-.client-list {
+.clients-list {
   display: inline-flex;
   align-items: center;
   /*margin-right: 215px;*/
 }
-.client-item {
+.clients-item {
   display: flex;
 }
 .company {
