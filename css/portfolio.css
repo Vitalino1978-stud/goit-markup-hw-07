@@ -222,6 +222,10 @@ list {
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  /*.footer-socials-icon:hover,
+  .footer-socials-icon:focus {
+    background-color: $hover-color;
+  }*/
   /*footer address {
   
 }*/
@@ -298,8 +302,6 @@ list {
 
 .footer-list-socials-item {
   display: flex;
-  margin-top: 12px;
-  margin-left: 70px;
   flex-direction: column;
 }
 
@@ -322,11 +324,6 @@ list {
   width: 20px;
   height: 20px;
   fill: #ffffff;
-}
-
-.footer .footer-socials-icon:hover,
-.footer .footer-socials-icon:focus {
-  background-color: #2196f3;
 }
 
 .footer .logo-studio-footer {
