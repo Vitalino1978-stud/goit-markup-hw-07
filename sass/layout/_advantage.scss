@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 0px;
-    width: 270px;
+    /*width: 270px;*/
   }
   &-list-item {
     width: 270px;
@@ -40,7 +40,6 @@
     /*margin-top: 0px;*/
     margin-bottom: 10px;
   }
-
   &-description {
     /*margin-bottom: 94px;*/
     padding: 270px, 75px;
@@ -51,19 +50,15 @@
     color: $accent-color;
   }
 }
-
 .pic-antena::before {
   background-image: url(../svg/antenna.svg);
 }
-
 .pic-clock::before {
   background-image: url(../svg/clock.svg);
 }
-
 .pic-diagram::before {
   background-image: url(../svg/diagram.svg);
 }
-
 .pic-astronaut::before {
   background-image: url(../svg/astronaut.svg);
 }

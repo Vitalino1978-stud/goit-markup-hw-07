@@ -218,9 +218,8 @@ list {
   fill: #2196f3;
 }
 
-/*FOOOOOOTER*/
 .footer {
-  background-color: #2f303a;
+  background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -240,7 +239,7 @@ list {
   margin-top: 20px;
 }
 
-.footer-map {
+.footer-list-map {
   display: inline-block;
   font-weight: 400;
   font-size: 14px;
@@ -251,7 +250,7 @@ list {
   margin-bottom: 8px;
 }
 
-.footer-mail, .footer-tel {
+.footer-list-mail, .footer-list-tel {
   display: inline-block;
   font-weight: 400;
   font-size: 14px;
@@ -264,9 +263,9 @@ list {
 
 .footer-socials {
   display: flex;
-  margin-top: 12px;
-  margin-left: 70px;
-  flex-direction: column;
+  width: 206px;
+  /*height: 80px;
+  padding-top: 12px;*/
 }
 
 .footer-socials-title {
@@ -281,6 +280,45 @@ list {
   font-style: normal;
 }
 
+.footer-socials-list {
+  display: flex;
+  width: 206px;
+  justify-content: space-between;
+}
+
+.footer-socials-item {
+  display: flex;
+  margin-top: 12px;
+  margin-left: 70px;
+  flex-direction: column;
+}
+
+.footer-socials-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-socials-icon:hover, .footer-socials-icon:focus {
+  background-color: #2196f3;
+}
+
+.footer-svg {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+
+.footer-social-networks-icon:hover,
+.footer-social-networks-icon:focus {
+  background-color: #2196f3;
+}
+
 .logo-studio-footer {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
@@ -293,49 +331,15 @@ list {
   color: #ffffff;
 }
 
+/*footer address {
+  
+}*/
+/*.footer-first {
+  margin-right: 80px;
+}*/
 .logo-container {
   display: block;
   margin-bottom: 20px;
-}
-
-.social-links-footer {
-  display: flex;
-  width: 206px;
-  /*height: 80px;
-  padding-top: 12px;*/
-}
-
-.footer-social-networks-list {
-  display: flex;
-  width: 206px;
-  justify-content: space-between;
-}
-
-.footer-svg {
-  width: 20px;
-  height: 20px;
-  fill: #ffffff;
-}
-
-.footer-social-networks-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.1);
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-social-networks-icon:hover,
-.footer-social-networks-icon:focus {
-  background-color: var(--hover-color);
-}
-
-.footer-social-networks-icon:hover .footer-svg,
-.footer-social-networks-icon:focus .footer-svg {
-  fill: #ffffff;
 }
 
 .form-wraper {
@@ -343,6 +347,18 @@ list {
   margin-top: 12px;
   margin-left: 93px;
   flex-direction: column;
+}
+
+.subscribe-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: start;
+  margin-bottom: 20px;
+  font-style: normal;
 }
 
 .subscribe-form {
@@ -362,7 +378,7 @@ list {
   color: #ffffff;
 }
 
-.subscribe-button {
+.subscribe-form-button {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
@@ -383,7 +399,7 @@ list {
   cursor: pointer;
 }
 
-.subscribe-button::after {
+.subscribe-form-button::after {
   display: block;
   content: "";
   width: 24px;
@@ -396,18 +412,6 @@ list {
 
 .iconsend::after {
   background-image: url(../svg/iconsend.svg);
-}
-
-.sub-us {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-  text-align: start;
-  margin-bottom: 20px;
-  font-style: normal;
 }
 
 .completed {
