@@ -222,6 +222,12 @@ list {
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  /*footer address {
+  
+}*/
+  /*.footer-first {
+  margin-right: 80px;
+}*/
 }
 
 .footer-description {
@@ -261,14 +267,18 @@ list {
   margin-bottom: 8px;
 }
 
-.footer-socials {
-  display: flex;
-  width: 206px;
-  /*height: 80px;
-  padding-top: 12px;*/
+.footer-list-mail:hover, .footer-list-tel:hover, .footer-list-mail:focus, .footer-list-tel:focus {
+  color: #2196f3;
 }
 
-.footer-socials-title {
+.footer-list-socials {
+  display: flex;
+  margin-top: 12px;
+  margin-left: 70px;
+  flex-direction: column;
+}
+
+.footer-list-socials-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
@@ -280,20 +290,20 @@ list {
   font-style: normal;
 }
 
-.footer-socials-list {
+.footer-list-socials-list {
   display: flex;
   width: 206px;
   justify-content: space-between;
 }
 
-.footer-socials-item {
+.footer-list-socials-item {
   display: flex;
   margin-top: 12px;
   margin-left: 70px;
   flex-direction: column;
 }
 
-.footer-socials-icon {
+.footer-list-socials-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -304,22 +314,22 @@ list {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-socials-icon:hover, .footer-socials-icon:focus {
+.footer-list-socials-icon:hover, .footer-list-socials-icon:focus {
   background-color: #2196f3;
 }
 
-.footer-svg {
+.footer-list-svg {
   width: 20px;
   height: 20px;
   fill: #ffffff;
 }
 
-.footer-social-networks-icon:hover,
-.footer-social-networks-icon:focus {
+.footer .footer-socials-icon:hover,
+.footer .footer-socials-icon:focus {
   background-color: #2196f3;
 }
 
-.logo-studio-footer {
+.footer .logo-studio-footer {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   font-style: normal;
@@ -331,25 +341,19 @@ list {
   color: #ffffff;
 }
 
-/*footer address {
-  
-}*/
-/*.footer-first {
-  margin-right: 80px;
-}*/
-.logo-container {
+.footer .logo-container {
   display: block;
   margin-bottom: 20px;
 }
 
-.form-wraper {
+.footer .form-wraper {
   display: flex;
   margin-top: 12px;
   margin-left: 93px;
   flex-direction: column;
 }
 
-.subscribe-title {
+.footer .subscribe-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
@@ -361,12 +365,12 @@ list {
   font-style: normal;
 }
 
-.subscribe-form {
+.footer .subscribe-form {
   display: inline-flex;
   align-items: center;
 }
 
-.subscribe-form-input {
+.footer .subscribe-form-input {
   width: 358px;
   height: 50px;
   /*padding-top: 15px;
@@ -378,7 +382,7 @@ list {
   color: #ffffff;
 }
 
-.subscribe-form-button {
+.footer .subscribe-form-button {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
@@ -394,12 +398,12 @@ list {
   color: #ffffff;
   text-align: left;
   border-style: none;
-  background-color: var(--hover-color);
+  background-color: #2196f3;
   border-radius: 4px;
   cursor: pointer;
 }
 
-.subscribe-form-button::after {
+.footer .subscribe-form-button::after {
   display: block;
   content: "";
   width: 24px;
@@ -410,7 +414,7 @@ list {
   /*border-radius: 4px;*/
 }
 
-.iconsend::after {
+.footer .iconsend::after {
   background-image: url(../svg/iconsend.svg);
 }
 
