@@ -80,25 +80,25 @@
   background-color: rgba(33, 150, 243, 0.9);
   transform: translatey(100%);
   transition: transform 250ms ease;
-}
 
-.overlay-text {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  padding-top: 63px;
-  padding-left: 24px;
-  padding-bottom: 63px;
-  padding-right: 24px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 28px;
-  /* or 156% */
-  letter-spacing: 0.03em;
-  color: #ffffff;
+  .overlay-text {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 63px;
+    padding-left: 24px;
+    padding-bottom: 63px;
+    padding-right: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
 }
 
 .work {
