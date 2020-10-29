@@ -26,6 +26,7 @@
   border-radius: 4px;
   margin-top: 4px;
   padding-left: 42px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-message {
   display: block;
@@ -41,10 +42,10 @@
 .information-input:focus,
 .form-message:focus {
   outline: none;
-  border: 1px solid var(--hover-color);
+  border: 1px solid $hover-color;
 }
 .information-input:focus + .form-icon {
-  fill: var(--hover-color);
+  fill: $hover-color;
 }
 
 .form-field {
@@ -88,7 +89,7 @@
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: $accent-color;
 }
 .agreement-terms {
   font-family: Roboto;
@@ -98,7 +99,7 @@
   line-height: 1.714;
   letter-spacing: 0.03em;
   text-decoration: underline;
-  color: var(--hover-color);
+  color: $hover-color;
 }
 .information-form-policy-label::before {
   display: inline-block;
@@ -109,7 +110,7 @@
   margin-right: 8px;
 }
 .form-policy:checked + .information-form-policy-label::before {
-  background-color: var(--hover-color);
+  background-color: $hover-color;
   background-image: url(../svg/chek.svg);
   background-repeat: no-repeat;
   background-position: center;

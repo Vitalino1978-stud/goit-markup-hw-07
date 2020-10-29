@@ -21,12 +21,12 @@
   fill: #ffffff;
 }*/
 .social-networks-icon {
-  fill: var(--accent-color);
+  fill: $accent-color;
   background-color: #ffffff;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   /*fill: #ffffff;*/
 }
 .social-networks-icon:hover {
-  background-color: var(--hover-color);
+  background-color: $hover-color;
   fill: #ffffff;
 }
