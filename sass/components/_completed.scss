@@ -81,7 +81,7 @@
   transform: translatey(100%);
   transition: transform 250ms ease;
 
-  .overlay-text {
+  &-text {
     position: absolute;
     top: 0;
     width: 100%;
