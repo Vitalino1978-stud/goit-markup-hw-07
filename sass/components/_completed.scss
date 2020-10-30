@@ -101,11 +101,11 @@
   }
 }
 
-.work {
-  &-card {
+/*.work {*/
+  work-card {
     padding: 20px 24px;
   }
-  &-company {
+  work-company {
     margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
@@ -113,7 +113,7 @@
     letter-spacing: 0.06em;
     color: $secondary-color;
   }
-  &-description {
+  work-description {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -122,4 +122,4 @@
     letter-spacing: 0.03em;
     color: $accent-color;
   }
-}
+/*}*/
